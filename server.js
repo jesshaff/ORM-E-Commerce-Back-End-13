@@ -13,5 +13,5 @@ console.log("Using routes")
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => console.log('==> 🌎  Listening on port 3001. Visit http://localhost:3001 in your browser.'));
 });
